@@ -1,0 +1,109 @@
+html, body {
+	height: 100%;
+  font-family: 'Merriweather', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: rgba(2, 23, 37, 1);
+  @include font-smoothing(on);
+}
+
+h1,h2,h3,h4 {
+  margin-top: 2em;
+}
+
+
+h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.25em;
+  @include media($tablet){
+    font-size: 2.5rem;
+    line-height: 1.125em;
+  }
+  @include media($desk){
+    font-size: 3rem;
+    line-height: 1.05em;
+  }
+}
+
+
+h2 {
+  font-size: 1.625rem;
+  font-weight: 500;
+  line-height: 1.15384615em;
+  @include media($tablet){
+    font-size: 2rem;
+    line-height: 1.125em;
+  }
+  @include media($desk){
+    font-size: 2.25rem;
+    line-height: 1.25em;
+  }
+}
+
+h3 {
+  font-size: 1.375rem;
+  font-weight: 500;
+  line-height: 1.13636364em;
+  @include media($tablet){
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+  }
+  @include media($desk){
+    font-size: 1.75rem;
+    line-height: 1.25em;
+  } 
+}
+
+h4 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.11111111em;
+  @include media($tablet){
+    line-height: 1.222222em;
+  }
+}
+
+
+p {
+  margin: 1rem 0;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.4em;
+  @include media($tablet){
+    line-height: 1.6em;
+  }
+}
+
+blockquote {
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 1.4em;
+  font-weight: 500;
+  color: #E36767;
+  padding: 1em;
+  border-top: 1px solid rgba(2, 23, 37, 1);
+  border-bottom: 1px solid rgba(2, 23, 37, 1);
+}
+
+img {
+  max-width: 100%;
+}
+
+
+a {
+  font-family: 'Roboto';
+  font-weight: 300;
+  color: #E36767;
+}
+
+
+a:hover {
+  font-style: bold;
+}
+
+div.code {
+  padding: 1em;
+  background: #333;
+  color: #E36767;
+}

@@ -1,0 +1,10 @@
+.column-third {
+  margin-bottom: 2em;
+  @include media($tablet){
+    @include span-columns(4);
+  }
+}
+
+.row {
+  @include row();
+}
