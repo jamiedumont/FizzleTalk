@@ -41,7 +41,21 @@ span.kern {
 
   }
 }
+.bio {
+  max-width: 80%;
+  margin: 0 auto 1em;
+  @include media($tablet){
+  max-width: 30%;
+  float: right;
+  margin: 0 1em 0 0;
+  }
+  
+}
 
+.icon {
+  max-width: 50%;
+  margin: 0 auto;
+}
 .micro-text {
   font-size: 0.6rem;
   margin-top: -15px;

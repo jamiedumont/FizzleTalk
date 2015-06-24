@@ -79,27 +79,50 @@ blockquote {
   font-size: 1.2rem;
   text-align: center;
   line-height: 1.4em;
+  margin: 2em 0;
   font-weight: 500;
   color: #E36767;
   padding: 1em;
   border-top: 1px solid rgba(2, 23, 37, 1);
   border-bottom: 1px solid rgba(2, 23, 37, 1);
+
+  footer {
+
+    a {
+      color: #333;
+    }
+    color: #333;
+    font-size: 0.8rem;
+    text-align: right;
+  }
+}
+
+ol {
+  padding-left: 3em;
 }
 
 img {
   max-width: 100%;
+  padding: 0.5em;
+  display: block;
+  margin: 3em auto 0.5em;
 }
 
 
 a {
-  font-family: 'Roboto';
-  font-weight: 300;
   color: #E36767;
 }
 
 
 a:hover {
-  font-style: bold;
+  font-weight: 700;
+}
+
+figcaption {
+  font-size: 0.8rem;
+  color: rgba(2, 23, 37, 1);
+  padding-left: 1em;
+  margin-bottom: 3em;
 }
 
 div.code {

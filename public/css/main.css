@@ -162,22 +162,39 @@ blockquote {
   font-size: 1.2rem;
   text-align: center;
   line-height: 1.4em;
+  margin: 2em 0;
   font-weight: 500;
   color: #E36767;
   padding: 1em;
   border-top: 1px solid #021725;
   border-bottom: 1px solid #021725; }
+  blockquote footer {
+    color: #333;
+    font-size: 0.8rem;
+    text-align: right; }
+    blockquote footer a {
+      color: #333; }
+
+ol {
+  padding-left: 3em; }
 
 img {
-  max-width: 100%; }
+  max-width: 100%;
+  padding: 0.5em;
+  display: block;
+  margin: 3em auto 0.5em; }
 
 a {
-  font-family: 'Roboto';
-  font-weight: 300;
   color: #E36767; }
 
 a:hover {
-  font-style: bold; }
+  font-weight: 700; }
+
+figcaption {
+  font-size: 0.8rem;
+  color: #021725;
+  padding-left: 1em;
+  margin-bottom: 3em; }
 
 div.code {
   padding: 1em;
@@ -207,6 +224,10 @@ div.code {
   justify-content: center;
   align-items: center;
   min-height: 30em;
+  background: #021725;
+  color: white; }
+
+#me {
   background: #021725;
   color: white; }
 
@@ -269,6 +290,19 @@ span.kern {
     font-family: 'Roboto';
     font-weight: 500;
     color: #E36767; }
+
+.bio {
+  max-width: 80%;
+  margin: 0 auto 1em; }
+  @media screen and (min-width: 768px) {
+    .bio {
+      max-width: 30%;
+      float: right;
+      margin: 0 1em 0 0; } }
+
+.icon {
+  max-width: 50%;
+  margin: 0 auto; }
 
 .micro-text {
   font-size: 0.6rem;
